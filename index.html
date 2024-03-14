@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <hr>
+  <video autoplay style="height:180px; width: 240px;" poster="https://image.freepik.com/free-icon/video-camera-symbol_318-40225.png"></video>
+  <p><button onclick="getStream()">Grab video & start recording</button></p>
+  <p><button onclick="download()">Download!</button></p>
+
+  <p><small>Demo by <a href="http://www.mcasas.tk/" target="_blank" rel="noopener">Miguel Casas-Sanchez</a>.</small></p>
+  
+  <hr>
+  <p>Initial battery status was <b id="charging">unknown</b>, charging time <b id="chargingTime">unknown</b>,
+    discharging time <b id="dischargingTime">unknown</b>, level <b id="level">unknown</b>.</p>
+  <hr>
+  <div id="target"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
